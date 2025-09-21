@@ -2848,7 +2848,18 @@ footer#footer {
   color: var(--dark-color);
   text-transform: uppercase;
 }
-
+.icon {
+  width: 34px;      /* adjust size */
+  height: 34px;
+  fill: currentColor; /* if inline SVG */
+  vertical-align: middle;
+  margin-right: 25px;  /* spacing from text */
+}
+@media only screen and (max-width: 580px) {
+  .iconbox {
+    margin-bottom: 30px;
+  }
+}
 /* 5.5 Testimonials
 --------------------------------------------------------------*/
 /*img.review-image {
